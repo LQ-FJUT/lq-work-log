@@ -1,0 +1,22 @@
+node_modules/
+dist/
+out/
+release/
+.npm-cache/
+.electron-cache/
+.nuget-cache/
+data/records.json
+data/*.tmp
+data/*.bak
+data/backups/
+*.log
+
+# User data, local secrets, and generated exports.
+data/
+*.json.tmp
+*.xlsx
+*.pdf
+*.pem
+*.key
+.env
+.env.*
